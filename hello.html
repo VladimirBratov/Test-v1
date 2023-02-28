@@ -1,210 +1,254 @@
 <!DOCTYPE html>
 <html>
-  <head> 
-    <meta charset="utf-8">
-    <meta name="author" content="Иван Иванов">
-    <meta name="description" content="Тестовая страница">
-    <meta name="keyword" content="тест, проверка, html">
-    Пробная страница для работы
-    <title> Главная страница Hello, world</title>
 
-    <link rel="stylesheet" href="css/main.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Иван Иванов">
+  <meta name="description" content="Тестовая страница">
+  <meta name="keyword" content="тест, проверка, html">
+  Пробная страница для работы
+  <title> Главная страница Hello, world</title>
+
+  <link rel="stylesheet" href="css/main.css">
 
 
-    <style>
-      body {
-          -webkit-animation: colorchange 60s infinite; 
-          animation: colorchange 60s infinite;
+  <style>
+    body {
+      -webkit-animation: colorchange 60s infinite;
+      animation: colorchange 60s infinite;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        background: #33FFF3;
       }
-      @-webkit-keyframes colorchange {
-           0%  {background: #33FFF3;}
-          25%  {background: #78281F;}
-          50%  {background: #117A65;}
-          75%  {background: #DC7633;}
-          100% {background: #9B59B6;}
+
+      25% {
+        background: #78281F;
       }
-      @keyframes colorchange {
-           0%  {background: #33FFF3;}
-          25%  {background: #78281F;}
-          50%  {background: #117A65;}
-          75%  {background: #DC7633;}
-          100% {background: #9B59B6;}
-      }   
-      </style>
 
-  </head>
-  <body>  
+      50% {
+        background: #117A65;
+      }
 
-    <img src="https://avatars.mds.yandex.net/i?id=5c851fbeddb6dfbb03d46353448ed141f59c2344-6959765-images-thumbs&n=13&exp=1" height="250px" title="Навели на меня" alt="jpg Hello, world" >
+      75% {
+        background: #DC7633;
+      }
 
-    <div>Просто текст</div>
+      100% {
+        background: #9B59B6;
+      }
+    }
 
-    <form method="post">
-      <label for="user_name"><b>Введите имя </b> </label>
-      <input type="text" placeholder="Введите что-то" value="что-то" 
-      maxlength="5" name="user_name" id="user_name"><br><br>
+    @keyframes colorchange {
+      0% {
+        background: #33FFF3;
+      }
 
-      <label for="input_password"><b>Введите пароль</b> </label>
-      <input type="password" placeholder="Max 8 символов" maxlength="8" name="input_password" id="input_password"><br><br>
+      25% {
+        background: #78281F;
+      }
 
-      <label><b>Введите почту </b> </label>
-      <input type="email"><br><br>
+      50% {
+        background: #117A65;
+      }
 
-      <label><b>Выберите цвет</b> </label>
-      <input type="color"><br><br>
+      75% {
+        background: #DC7633;
+      }
 
-      <label ><b>Выберите дату</b> </label>
-      <input type="date"><br><br>
+      100% {
+        background: #9B59B6;
+      }
+    }
+  </style>
 
-      <label><b>Выберите время</b> </label>
-      <input type="time"><br><br>
+</head>
 
-      <label><b>Выберите дату</b> </label>
-      <input type="checkbox"><br><br>
+<body>
 
-      <label>Выберите дату</label>
-      <input type="radio" name="state"><br><br>
-      <label>Выберите дату</label>
-      <input type="radio" name="state"><br><br>
+  <img
+    src="https://avatars.mds.yandex.net/i?id=5c851fbeddb6dfbb03d46353448ed141f59c2344-6959765-images-thumbs&n=13&exp=1"
+    height="250px" title="Навели на меня" alt="jpg Hello, world">
 
-      <label><b>Прикрепите файл</b> </label>
-      <input type="file"><br><br>
+  <div>Просто текст</div>
+
+  <form method="post">
+    <label for="user_name"><b>Введите имя </b> </label>
+    <input type="text" placeholder="Введите что-то" value="что-то" maxlength="5" name="user_name"
+      id="user_name"><br><br>
+
+    <label for="input_password"><b>Введите пароль</b> </label>
+    <input type="password" placeholder="Max 8 символов" maxlength="8" name="input_password" id="input_password"><br><br>
+
+    <label><b>Введите почту </b> </label>
+    <input type="email"><br><br>
+
+    <label><b>Выберите цвет</b> </label>
+    <input type="color"><br><br>
+
+    <label><b>Выберите дату</b> </label>
+    <input type="date"><br><br>
+
+    <label><b>Выберите время</b> </label>
+    <input type="time"><br><br>
+
+    <label><b>Выберите дату</b> </label>
+    <input type="checkbox"><br><br>
+
+    <label>Выберите дату</label>
+    <input type="radio" name="state"><br><br>
+    <label>Выберите дату</label>
+    <input type="radio" name="state"><br><br>
+
+    <label><b>Прикрепите файл</b> </label>
+    <input type="file"><br><br>
 
 
 
-      <textarea placeholder="Введите текст"></textarea><br><br>  
+    <textarea placeholder="Введите текст"></textarea><br><br>
 
 
-      <button type="reset">Готово</button>
+    <button type="reset">Готово</button>
 
 
 
 
 
-    </form>
-    
+  </form>
 
 
-    <h1 title="Hello, world">Hello, World!I am Vova! YOUUUUUUU!!!!!</h1>
-      <!-- Новое сообщение--> 
-    <h2>Заголовок <strike>2</strike></h2>
-    <h3>Заголовок <big>3</big></h3>
-    <h4>Заголовок <small>4</small></h4>
-    <h5>Заголовок 5</h5>
-    <h6>Заголовок 6</h6>
+
+  <h1 title="Hello, world">Hello, World!I am Vova! YOUUUUUUU!!!!!</h1>
+  <!-- Новое сообщение-->
+  <h2>Заголовок <strike>2</strike></h2>
+  <h3>Заголовок <big>3</big></h3>
+  <h4>Заголовок <small>4</small></h4>
+  <h5>Заголовок 5</h5>
+  <h6>Заголовок 6</h6>
 
 
-    <pre> some() {
+  <pre> some() {
       returne"Some"
     }</pre>
 
-    <code>
+  <code>
       let x = 0;
     </code><br>
 
 
-    H<sub>2</sub>0<br><hr>
-    a<sup>2</sup><br>
-    <abbr title="html">HTML</abbr>
+  H<sub>2</sub>0<br>
+  <hr>
+  a<sup>2</sup><br>
+  <abbr title="html">HTML</abbr>
 
-    <address>
-      Seattle, USA
-    </address>
-
-
-    <p>Простой <i><b>текст</b></i></p>
-    <p>Простой <em>текст</em></p>
-    <p>Простой <i>текст</i></p><br>
-
-    <img src="IMG/spisok.jpg" width="50%" title="Навели на список " alt="png Список">
+  <address>
+    Seattle, USA
+  </address>
 
 
+  <p>Простой <i><b>текст</b></i></p>
+  <p>Простой <em>текст</em></p>
+  <p>Простой <i>текст</i></p><br>
 
-    <ol start="1" type="I">
-      <li><b><big>Купить</big></b> молоко</li>
-      <li><b><big>Купить</big></b> хлеб</li>
-      <li><b><big>Купить</big></b> масло</li>
-    </ol>
-
-    <ul type="circle">
-      
-      <li><b><big>Купить</big></b> молоко</li>
-      <li><b><big>Купить</big></b> хлеб</li>
-      <li><b><big>Купить</big></b> масло</li>
-
-    </ul>
-
-    <table border="1" width=" 500px">
-      <thead>
-        <tr>
-          <th>Имя</th>
-          <th>Фамилия</th>
-          <th>Есть в списке</th>
-        </tr>
-      </thead>
-       
-      <tbody align="center">
-        <tr>
-          <td>John 1</td>
-          <td>Dale</td>
-          <td>+</td>
-
-        </tr>
-        <tr>
-          <td>John 2</td>
-          <td>Dale</td>
-          <td>-</td>
-          
-
-        </tr>
-        <tr>
-          <td>John 3</td>
-          <td>Dale</td>
-          <td>+</td>
-
-        </tr>
-        <tr>
-          <td>John 4</td>
-          <td>Dale</td>
-          <td>-</td>
-
-        </tr>>
-      </tbody>
-
-      <tfoot align="center">
-        <tr>
-          <td><b>Last</b></td>
-          <td><b>One</b></td>
-          <td></td>
-        </tr>
-      </tfoot>
-      
-
-    </table>
+  <img src="IMG/spisok.jpg" width="50%" title="Навели на список " alt="png Список">
 
 
 
+  <ol start="1" type="I">
+    <li><b><big>Купить</big></b> молоко</li>
+    <li><b><big>Купить</big></b> хлеб</li>
+    <li><b><big>Купить</big></b> масло</li>
+  </ol>
+
+  <ul type="circle">
+
+    <li><b><big>Купить</big></b> молоко</li>
+    <li><b><big>Купить</big></b> хлеб</li>
+    <li><b><big>Купить</big></b> масло</li>
+
+  </ul>
+
+  <table border="1" width=" 500px">
+    <thead>
+      <tr>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Есть в списке</th>
+      </tr>
+    </thead>
+
+    <tbody align="center">
+      <tr>
+        <td>John 1</td>
+        <td>Dale</td>
+        <td>+</td>
+
+      </tr>
+      <tr>
+        <td>John 2</td>
+        <td>Dale</td>
+        <td>-</td>
 
 
-    <p title="Some">Some text</p>
+      </tr>
+      <tr>
+        <td>John 3</td>
+        <td>Dale</td>
+        <td>+</td>
 
-    <a href="mailto:user@mail.com"><i>Написать на почту</i></a><br>
+      </tr>
+      <tr>
+        <td>John 4</td>
+        <td>Dale</td>
+        <td>-</td>
 
-    <a href="#Bottom page">Вниз</a><br><br>
+      </tr>>
+    </tbody>
 
-    <a href="https://google.com/" title="Нажми на меня" target="_blank">Перейти в Google</a><br><br>
-
-    <a href="about.html" title="Страница About"><b>Перейти на страницу о нас</b></a><br>
-    Раздел «О нас» дает посетителям сайта представление о компании или личности. Цифры, кейсы, ссылки на крупных заказчиков — подтвержденная информация повышает ваш авторитет и формирует доверие со стороны аудитории. Здесь вы показываете свою значимость и объясняете, почему выгодно быть вашим клиентом.
-
-    Этот раздел подходит для краткого рассказа о команде и истории развития компании. Покажите лица, которые стоят за продуктом — открытость расположит к вам людей. Раскройте свою миссию. Например, вы не просто торгуете техникой, а имеете цель — облегчить быт и улучшить качество жизни. Если есть награды и сертификаты, разместите их здесь.
-    Есть вероятность, что сайт могут найти по ключевикам на странице, описывающей вашу деятельность. Учитывайте это при составлении текста. Возможно, вам пригодится этот материал: «SEO-текст: как писать оптимизированные и полезные статьи». Постарайтесь также, чтобы его было интересно читать. Чем больше времени пользователь проведет у вас, тем лучше будет позиция сайта в выдаче.
-
-    Но главное — дать клиенту понять, что вы решите его проблему. Именно для этого в первую очередь нужна страница о компании — показать, какую пользу вы даете, а не просто расписать свою биографию или брендстори.
-   
-    <a name="Bottom page"></a>
+    <tfoot align="center">
+      <tr>
+        <td><b>Last</b></td>
+        <td><b>One</b></td>
+        <td></td>
+      </tr>
+    </tfoot>
 
 
-    
-  </body>
+  </table>
+
+
+
+
+
+  <p title="Some">Some text</p>
+
+  <a href="mailto:user@mail.com"><i>Написать на почту</i></a><br>
+
+  <a href="#Bottom page">Вниз</a><br><br>
+
+  <a href="https://google.com/" title="Нажми на меня" target="_blank">Перейти в Google</a><br><br>
+
+  <a href="about.html" title="Страница About"><b>Перейти на страницу о нас</b></a><br>
+  Раздел «О нас» дает посетителям сайта представление о компании или личности. Цифры, кейсы, ссылки на крупных
+  заказчиков — подтвержденная информация повышает ваш авторитет и формирует доверие со стороны аудитории. Здесь вы
+  показываете свою значимость и объясняете, почему выгодно быть вашим клиентом.
+
+  Этот раздел подходит для краткого рассказа о команде и истории развития компании. Покажите лица, которые стоят за
+  продуктом — открытость расположит к вам людей. Раскройте свою миссию. Например, вы не просто торгуете техникой, а
+  имеете цель — облегчить быт и улучшить качество жизни. Если есть награды и сертификаты, разместите их здесь.
+  Есть вероятность, что сайт могут найти по ключевикам на странице, описывающей вашу деятельность. Учитывайте это при
+  составлении текста. Возможно, вам пригодится этот материал: «SEO-текст: как писать оптимизированные и полезные
+  статьи». Постарайтесь также, чтобы его было интересно читать. Чем больше времени пользователь проведет у вас, тем
+  лучше будет позиция сайта в выдаче.
+
+  Но главное — дать клиенту понять, что вы решите его проблему. Именно для этого в первую очередь нужна страница о
+  компании — показать, какую пользу вы даете, а не просто расписать свою биографию или брендстори.
+
+  <a name="Bottom page"></a>
+
+
+
+</body>
+
 </html>
